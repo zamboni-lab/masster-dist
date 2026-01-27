@@ -1,48 +1,6 @@
 # masster
 
-[![PyPI - Version](https://img.shields.io/pypi/v/masster)](https://pypi.org/project/masster/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/masster)](https://pypi.org/project/masster/)
-
-## About this repository (`masster-dist`)
-
-This repository is the **distribution repository** for MASSter:
-- GitHub Releases here contain **platform/Python-specific wheels**.
-- The **clear** pure-Python wheel (`py3-none-any`) is published to **PyPI** and is not mirrored here.
-- Source code and development happen in the main project repo (`zamboni-lab/masster`).
-
 **MASSter** is a Python package for the analysis of metabolomics experiments by LC-MS/MS data, with a main focus on the challenging tasks of untargeted and large-scale studies.  
-
-## Installation
-
-Install from this repository’s GitHub Releases (wheels). Pick the wheel that matches:
-- your OS (`win_amd64`, `manylinux_2_28_x86_64`, `macosx_...`)
-- your Python minor version (`cp311`, `cp312`, `cp313`)
-
-### `pip`
-
-Option A: install from a downloaded wheel file:
-```bash
-pip install ./masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-Option B: install directly from a GitHub Release URL:
-```bash
-pip install https://github.com/zamboni-lab/masster-dist/releases/download/<tag>/masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-### `uv`
-
-Option A: install from a downloaded wheel file:
-```bash
-uv pip install ./masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-Option B: install directly from a GitHub Release URL:
-```bash
-uv pip install https://github.com/zamboni-lab/masster-dist/releases/download/<tag>/masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-Release assets include `SHA256SUMS.txt` for verification.
 
 ## Background and motivation
 
@@ -90,6 +48,36 @@ MASSter uses its own HDF5 file format to save results (i.e., `.sample5` and `.st
 **It is recommended to use data in either the vendor's raw formats (WIFF and Thermo RAW) or mzML/mz5 in profile mode (both accessible via Pwiz).** MASSter includes a sophisticated and sufficiently fast centroiding algorithm that works well across the full dynamic range and only acts on relevant spectra. In our tests with data from different vendors, this centroiding performed significantly better than most vendor implementations (which are primarily proteomics-centric).
 
 **Direct access to Bruker *.d, Agilent *.d, and SCIEX *.wiff2 formats is not supported**, at least not in the public version.
+
+## Installation
+
+Install from this repository’s GitHub Releases (wheels). Pick the wheel that matches:
+- your OS (`win_amd64`, `manylinux_2_28_x86_64`, `macosx_...`)
+- your Python minor version (`cp311`, `cp312`, `cp313`)
+
+### `pip`
+
+Option A: install from a downloaded wheel file:
+```bash
+pip install ./masster-<version>-cp<py>-cp<py>-<platform>.whl
+```
+
+Option B: install directly from a GitHub Release URL:
+```bash
+pip install https://github.com/zamboni-lab/masster-dist/releases/download/<tag>/masster-<version>-cp<py>-cp<py>-<platform>.whl
+```
+
+### `uv`
+
+Option A: install from a downloaded wheel file:
+```bash
+uv pip install ./masster-<version>-cp<py>-cp<py>-<platform>.whl
+```
+
+Option B: install directly from a GitHub Release URL:
+```bash
+uv pip install https://github.com/zamboni-lab/masster-dist/releases/download/<tag>/masster-<version>-cp<py>-cp<py>-<platform>.whl
+```
 
 ## Getting started
 **The quickest way to use or learn MASSter is to use the integrated Wizard**, which handles most tasks automatically.
