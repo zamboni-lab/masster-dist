@@ -215,11 +215,9 @@ dir(sample)
 - **No warranties**: The software is provided "as is" without any warranty of any kind, express or implied.
 - **Backward compatibility**: We do not guarantee backward compatibility between versions. Breaking changes may occur as we improve the software.
 - **Performance**: While optimized for our workflows, performance may vary depending on your data and system configuration.
-- **Support**: This is an academic project with limited resources. At the moment, we do not provide external user support.
-- **PyPI distribution**: PyPI publishes the **clear** pure-Python wheel only.
-- **GitHub Releases**: Platform/Python-specific wheels are distributed via GitHub Releases in this repository (not via PyPI/TestPyPI).
-- **Source for releases**: This distribution repository does not contain source code; see the main project repository (`zamboni-lab/masster`) for sources and issue tracking.
+- **Support**: This is an academic project with limited resources. At the moment, we do not provide external user support. Issues can be opened, but there is no guarantee that they will be addressed.
 - **Production use**: If you plan to use MASSter in production or critical workflows, thorough testing with your data is recommended.
+- **Obfuscation**: The source code in the public distribution is currently obfuscated. This is motivated by (i) the emergence of free-riding without attribution, (ii) the commitment to provide full access to novel features prior publications, (iii) the will to enable full reproduction of our workflows by thirds.
 
 ## License
 GNU Affero General Public License v3
