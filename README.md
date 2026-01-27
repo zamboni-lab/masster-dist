@@ -87,7 +87,7 @@ The Wizard only needs to know the location of the MS files and where to store th
 from masster import Wizard
 wiz = Wizard(
     source=r'..\..\folder_with_raw_data',    # where to find the data
-    folder=r'..\..folder_to_store_results',  # where to save the results
+    folder=r'..\..\folder_to_store_results',  # where to save the results
     ncores=6                                 # optional; don't exceed 8 as the process is limited by disk I/O
     )
 wiz.test_and_run()
@@ -104,110 +104,18 @@ marimo edit '..\\..\\folder_to_store_results\\2_notebook.py'
 uv run marimo edit '..\\..\\folder_to_store_results\\2_notebook.py'
 ```
 
+## Documentation (Wiki)
+
+More extensive documentation lives in the GitHub wiki:
+- [Wiki home](../../wiki)
+- [Basic workflows](../../wiki/Basic-Workflows)
+- [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample)
+
 ### Basic Workflow for analyzing LC-MS study with 1-1000+ samples
-In MASSter, the main object for data analysis is a `Study`, which consists of a bunch of `Samples`.
-```python
-from masster import Study
-# Initialize the Study object with the default folder
-study = Study(folder=r'D:\...\mylcms')
-
-# Load data from folder with raw data, here: WIFF
-study.add(r'D:\...\...\...\*.wiff')
-# Load all compatible files from default folder
-study.add()
-
-# Perform retention time correction
-study.align(rt_tol=2.0)
-study.plot_alignment()
-study.plot_rt_correction()
-study.plot_bpc()
-
-# Find consensus features
-study.merge(min_samples=3)   # This will keep only features found in 3 or more samples
-study.plot_consensus_2d()
-
-# Retrieve information
-study.info()
-
-# Retrieve EICs for quantification
-study.fill()
-
-# Integrate EICs according to consensus metadata
-study.integrate()
-
-# Export results
-study.export_excel()
-study.export_csv()
-study.export_mgf()
-study.export_mztab()
-study.export_parquet()
-
-# Save the study to .study5
-study.save()
-
-# Some of the plots...
-study.plot_samples_pca()
-study.plot_samples_umap()
-study.plot_heatmap()
-
-# Load human metabolome (without RT) and annotate by MS1
-study.lib_load('hsapiens')
-study.identify()
-study.get_id()
-# Plot features with putative identification
-study.plot_consensus_2d(show_only_features_with_id=True,
-           colorby="has_ms2",
-           tooltip="id")
-
-# Import LipidOracle results (MS2 annotation)
-study.import_oracle('lipidoracle-folder')
-
-# Import timaR results (MS2 annotation)
-study.import_tima('tima-folder')
-
-# To learn more about available methods...
-dir(study)
-```
-The information is stored in Polars DataFrames:
-```python
-# Information on samples
-study.samples_df
-# Information on consensus features
-study.consensus_df
-```
+See: [Basic workflows](../../wiki/Basic-Workflows).
 
 ### Analysis of a single sample
-For troubleshooting, exploration, or creating figures for a single file, you can open and process a single file:  
-```python
-from masster import Sample
-sample = Sample(filename='...') # Full path to a *.raw, *.wiff, *.mzML, or *.sample5 file
-# Peek into sample
-sample.info()
-
-# Process
-sample.find_features(chrom_fwhm=0.5, noise=200) # For Orbitrap data, set noise to 1e5
-sample.find_adducts()
-sample.find_ms2()
-
-# Access data
-sample.features_df
-
-# Save results
-sample.save() # Stores to *.sample5, our custom HDF5 format
-sample.export_mgf()
-sample.export_csv()
-sample.export_excel()
-sample.export_mztab()
-
-# Some plots
-sample.plot_bpc()
-sample.plot_tic()
-sample.plot_2d()
-sample.plot_feature_stats()
-
-# Explore methods
-dir(sample)
-```
+See: [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample).
 
 ## Disclaimer
 
