@@ -6,7 +6,7 @@
 ## About this repository (`masster-dist`)
 
 This repository is the **distribution repository** for MASSter:
-- GitHub Releases here contain **platform/Python-specific obfuscated wheels**.
+- GitHub Releases here contain **platform/Python-specific wheels**.
 - The **clear** pure-Python wheel (`py3-none-any`) is published to **PyPI** and is not mirrored here.
 - Source code and development happen in the main project repo (`zamboni-lab/masster`).
 
@@ -14,7 +14,7 @@ This repository is the **distribution repository** for MASSter:
 
 ## Installation
 
-Install from this repository’s GitHub Releases (obfuscated wheels). Pick the wheel that matches:
+Install from this repository’s GitHub Releases (wheels). Pick the wheel that matches:
 - your OS (`win_amd64`, `manylinux_2_28_x86_64`, `macosx_...`)
 - your Python minor version (`cp311`, `cp312`, `cp313`)
 
@@ -229,7 +229,7 @@ dir(sample)
 - **Performance**: While optimized for our workflows, performance may vary depending on your data and system configuration.
 - **Support**: This is an academic project with limited resources. At the moment, we do not provide external user support.
 - **PyPI distribution**: PyPI publishes the **clear** pure-Python wheel only.
-- **Obfuscated distribution**: Obfuscated wheels are distributed via GitHub Releases in this repository (not via PyPI/TestPyPI).
+- **GitHub Releases**: Platform/Python-specific wheels are distributed via GitHub Releases in this repository (not via PyPI/TestPyPI).
 - **Source for releases**: This distribution repository does not contain source code; see the main project repository (`zamboni-lab/masster`) for sources and issue tracking.
 - **Production use**: If you plan to use MASSter in production or critical workflows, thorough testing with your data is recommended.
 
