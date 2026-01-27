@@ -1,6 +1,6 @@
-# masster
+# MASSter
 
-**MASSter** is a Python package for the analysis of metabolomics experiments by LC-MS/MS data, with a main focus on the challenging tasks of untargeted and large-scale studies.  
+**MASSter** is a Python package for the analysis of metabolomics experiments by LC-MS/MS data, with a main focus on the challenging tasks of untargeted and large-scale studies. This repository provides releases, documentation, and issue tracking.
 
 ## Background and motivation
 
