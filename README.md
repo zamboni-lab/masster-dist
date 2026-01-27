@@ -16,7 +16,7 @@ We decided to make MASSter public primarily for these reasons:
 
 MASSter is designed to handle LC-MS/MS data, regardless of whether it is DDA, DIA/SWATH, or DIA/ZTScan. We still rely on the potent and fast feature detection provided by OpenMS, but we have redesigned everything else: centroiding, RT alignment, adduct and isotopomer detection, merging of multiple samples, gap-filling, quantification, extraction of the best MS2 spectra across the entire study, visualization, and export to mzTab-M, MGF, parquet, etc.
 
-What is **not** included in MASSter is:
+MASSter does **not** include:
 * downstream data analysis: Simple approaches like PCA, UMAP, or ANOVA are integrated for QC, but we didn't include methods for normalization or pathway analysis, etc.
 * annotation by MS2 with spectral matching: by design, we outsource MS2 annotation to external tools, like LipidOracle or timaR. Masster has import functions to read the results of annotation and embed them into visualization and export files.
 * support for ion mobility, or MS3 data.
@@ -217,7 +217,7 @@ dir(sample)
 - **Performance**: While optimized for our workflows, performance may vary depending on your data and system configuration.
 - **Support**: This is an academic project with limited resources. At the moment, we do not provide external user support. Issues can be opened, but there is no guarantee that they will be addressed.
 - **Production use**: If you plan to use MASSter in production or critical workflows, thorough testing with your data is recommended.
-- **Obfuscation**: The source code in the public distribution is currently obfuscated. This is motivated by (i) the emergence of free-riding without attribution, (ii) the commitment to provide full access to novel features prior publications, (iii) the will to enable full reproduction of our workflows by thirds.
+- **Source code access**: The source code in the public distribution is currently obfuscated. We remain committed to providing full access to the software's functionality and ensuring reproducibility of scientific results. We may explore alternative distribution models in the future that better balance openness with sustainability of the project. Access to source code may be granted for collaboration.
 
 ## License
 GNU Affero General Public License v3
