@@ -107,7 +107,7 @@ See: [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample).
 ## Disclaimer
 
 **MASSter is research software under active development.** While we use it extensively in our lab and strive for quality and reliability, please be aware:
-- **No warranties**: The software is provided "as is" without any warranty of any kind, express or implied.
+- **No warranties**: The software is provided "as is" without any warranty of any kind, express or implied. Some features are stable, some others in a chronic beta phase.
 - **Backward compatibility**: We do not guarantee backward compatibility between versions. Breaking changes may occur as we improve the software.
 - **Performance**: While optimized for our workflows, performance may vary depending on your data and system configuration.
 - **Support**: This is an academic project with limited resources. At the moment, we do not provide external user support. Issues can be opened, but there is no guarantee that they will be addressed.
