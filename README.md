@@ -1,4 +1,6 @@
-# MASSter
+<div align="center">
+  <img src="masster.jpg" alt="MASSter Logo" width="200">
+</div>
 
 **MASSter** is a Python package for the analysis of metabolomics experiments by LC-MS/MS data, with a main focus on the challenging tasks of untargeted and large-scale studies. MASSter is actively used, maintained, and developed by the Zamboni Lab at ETH Zurich. The project started in 2025 because many needs were unmet by common software packages (mzMine, MS-DIAL, W4, etc.), such as performance, scalability, sensitivity, robustness, speed, rapid implementation of new features, and integration into ETL systems.
 
