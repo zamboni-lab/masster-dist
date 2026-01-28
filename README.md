@@ -45,6 +45,29 @@ MASSter uses its own HDF5 file format to save results (i.e., `.sample5` and `.st
 
 ## Installation
 
+### Recommended: install via the PEP 503 `simple/` index
+
+This repository publishes a PEP 503-compatible package index (for `uv`, `pip`, etc.):
+
+- Index URL: `https://zamboni-lab.github.io/masster-dist/simple/`
+
+`uv` (recommended):
+```bash
+uv pip install --index https://zamboni-lab.github.io/masster-dist/simple masster
+```
+
+`pip`:
+```bash
+pip install --extra-index-url https://zamboni-lab.github.io/masster-dist/simple masster
+```
+
+Project dependency with `uv`:
+```bash
+uv add --index https://zamboni-lab.github.io/masster-dist/simple masster
+```
+
+### Alternative: install from GitHub Releases (manual wheel selection)
+
 Install from this repository’s GitHub Releases (wheels). Pick the wheel that matches:
 - your OS (`win_amd64`, `manylinux_2_28_x86_64`, `macosx_...`)
 - your Python minor version (`cp311`, `cp312`, `cp313`)
