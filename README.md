@@ -41,7 +41,7 @@ MASSter uses its own HDF5 file format to save results (i.e., `.sample5` and `.st
 
 **It is recommended to use data in either the vendor's raw formats (WIFF and Thermo RAW) or mzML/mz5 in profile mode (both accessible via Pwiz).** MASSter includes a sophisticated and sufficiently fast centroiding algorithm that works well across the full dynamic range and only acts on relevant spectra. In our tests with data from different vendors, this centroiding performed significantly better than most vendor implementations (which are primarily proteomics-centric).
 
-**Direct access to Bruker *.d, Agilent *.d, and SCIEX *.wiff2 formats is not supported**, at least not in the public version.
+__Direct access to Bruker *.d, Agilent *.d, and SCIEX *.wiff2 formats is not supported__, at least not in the public version.
 
 ## Installation
 
