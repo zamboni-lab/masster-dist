@@ -2,15 +2,17 @@
   <img src="masster.jpg" alt="MASSter Logo" width="200">
 </div>
 
-**MASSter** is a Python package for the analysis of metabolomics experiments by LC-MS/MS data, with a main focus on the challenging tasks of untargeted and large-scale studies. MASSter is actively used, maintained, and developed by the Zamboni Lab at ETH Zurich. The project started in 2025 because many needs were unmet by common software packages (mzMine, MS-DIAL, W4, etc.), such as performance, scalability, sensitivity, robustness, speed, rapid implementation of new features, and integration into ETL systems.
+**MASSter** is a Python package for the analysis of metabolomics experiments by LC-MS/MS data, with a main focus on the challenging tasks of untargeted and large-scale studies. MASSter is actively used, maintained, and developed by the Zamboni Lab at ETH Zurich. 
 
-As of January 2026, the codebase includes over 60,000 lines of code and offers a wide range of possibilities. MASSter has become the workhorse for all of our work, from R&D to routine analyses, from small to large-scale studies, from DDA to DIA, across all vendors.
+The project started in 2025 because many needs were unmet by existing metabolomics software: access and processing of native data, performance, scalability, sensitivity, robustness, rapid prototyping, integration into ETL systems, quantitative analysis of tracing data, FAIRness of data and processing, etc.
 
-We decided to make MASSter public primarily for these reasons:
+As of January 2026, the codebase includes over 60,000 lines of code and offers a wide range of possibilities. MASSter has become the workhorse for all of our work, from R&D to routine analyses, from small to large-scale studies, from DDA to DIA, across most vendors.
+
+We decided to make MASSter public primarily for:
 * **FAIRification of data processing**: We want others to be able to reproduce our results starting from raw data, using fully parameterized scripts that do not depend on human interaction.
 * **Empowering other labs**: To allow other labs to immediately benefit from the latest developments we implement.
 
-This repository provides public releases, documentation (Wiki, in progress), and issue tracking.
+**This repository provides public releases, documentation (Wiki, in progress), and issue tracking**. The public version includes virtually all functionalities of the internal version, with the exception of brand new methods in the alpha version, or features that can't be distributed because of third-party license agreements.
 
 ## Content
 
