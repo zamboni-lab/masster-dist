@@ -66,36 +66,6 @@ Project dependency with `uv`:
 uv add --index https://zamboni-lab.github.io/masster-dist/simple masster
 ```
 
-### Alternative: install from GitHub Releases (manual wheel selection)
-
-Install from this repository’s GitHub Releases (wheels). Pick the wheel that matches:
-- your OS (`win_amd64`, `manylinux_2_28_x86_64`, `macosx_...`)
-- your Python minor version (`cp311`, `cp312`, `cp313`)
-
-### `pip`
-
-Option A: install from a downloaded wheel file:
-```bash
-pip install ./masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-Option B: install directly from a GitHub Release URL:
-```bash
-pip install https://github.com/zamboni-lab/masster-dist/releases/download/<tag>/masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-### `uv`
-
-Option A: install from a downloaded wheel file:
-```bash
-uv pip install ./masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
-Option B: install directly from a GitHub Release URL:
-```bash
-uv pip install https://github.com/zamboni-lab/masster-dist/releases/download/<tag>/masster-<version>-cp<py>-cp<py>-<platform>.whl
-```
-
 ## Getting started
 **The quickest way to use or learn MASSter is to use the integrated Wizard**, which handles most tasks automatically.
 
