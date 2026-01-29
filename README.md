@@ -45,12 +45,16 @@ MASSter uses its own HDF5 file format to save results (i.e., `.sample5` and `.st
 
 __Direct access to Bruker *.d, Agilent *.d, and SCIEX *.wiff2 formats is not supported in the public version__. For these vendors, you'll have to convert to mzML/mz5.
 
-## Installation
+## Distributions
 
-This repository publishes a PEP 503-compatible package index (for `uv`, `pip`, etc.):
+Two public versions exist:
 
-- Index URL: `https://zamboni-lab.github.io/masster-dist/simple/`
+**The light version** allows to read, visualize, filter, export results that were processed by MASSter. The light version does NOT allow to process data, or read from raw files. It's available for Python 3.11-3.14. This is the recommended version for users that are only interested in the results. It's distrributed mainly through Pypi.
 
+**The full version** is distributed via [GitHub](https://github.com/zamboni-lab/masster-dist), and includes all functionalities, incl. reading from raw or mzML/mz5 data. As reading from vendor formats via .NET builds on pythonnet, the full version is currently only available for Python 3.11-3.13.
+
+
+## Installation (Full version)
 `uv` (recommended):
 ```bash
 uv pip install --index https://zamboni-lab.github.io/masster-dist/simple masster
