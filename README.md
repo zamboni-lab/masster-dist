@@ -88,6 +88,12 @@ wiz = Wizard(
     )
 wiz.test_and_run()
 ```
+In a terminal window, this is equivalent to:
+```bash
+uv run python -c "from masster import Wizard; wiz = Wizard(
+    source=r'..\..\folder_with_raw_data',
+    folder=r'..\..\folder_to_store_results'); wiz.test_and_run()
+```
 
 This will trigger the analysis of the raw data and create a script to process all samples and assemble the study. The complete processing workflow will be saved as `1_processing.py` in the output folder. The Wizard will run a initial test and, if successful, execute the full workflow using parallel processes. Once processing is complete, navigate to the output folder to see the results.
 
