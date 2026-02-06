@@ -55,9 +55,9 @@ Recommended MS file formats:
 
 Two versions exist:
 
-* **The light version (`masster-light`)** is distributed via PyPI, and allows to read, visualize, filter, export results that were processed by MASSter. The light version does NOT allow to process data, or read from raw files. It's available for any Python 3.11+. This is the recommended version for users that are only interested in the results, or developers that want to directly read `sample5` and `study5` files.
+* **The light version (`masster-light`)** is distributed via [PyPI](https://pypi.org/project/masster-light/), and allows to read, visualize, filter, export results that were processed by MASSter. The light version does NOT allow to process data, or read from raw files. It's available for any Python 3.11+. This is the recommended version for users that are only interested in the results, or developers that want to directly read `sample5` and `study5` files.
 
-* **The full version (`masster`)** is distributed via [GitHub](https://github.com/zamboni-lab/masster-dist), and includes all functionalities, incl. reading from raw or mzML/mz5 data. As reading from vendor formats via .NET builds on pythonnet, the full version is currently only available for Python 3.11-3.13.
+* **The full version (`masster`)** is distributed via [this repository](https://github.com/zamboni-lab/masster-dist), and includes all functionalities, incl. reading from raw or mzML/mz5 data. As reading from vendor formats via .NET builds on pythonnet, the full version is currently only available for Python 3.11-3.13.
 
 ## Installation
 
