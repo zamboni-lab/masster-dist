@@ -123,11 +123,12 @@ See: [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample).
 The full `masster` package is licensed under the PolyForm Noncommercial License 1.0.0. See the [LICENSE](LICENSE) file for details.
 Noncommercial use is permitted under that license. Commercial use requires a separate commercial license from the Zamboni Lab at ETH Zurich.
 
-The `masster-light` version is open-source and licensed through AGPLv3.
+The `masster-light` version is open-source and licensed under AGPLv3.
 
 ### Third-Party Licenses
 This project uses several third-party libraries, including pyOpenMS which is licensed under the BSD 3-Clause License. For complete information about third-party dependencies and their licenses, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Citation
 If you use MASSter in your research, please cite this repository.
+
 
