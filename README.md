@@ -12,6 +12,13 @@ We decided to make MASSter public primarily for these reasons:
 
 This repository provides public releases, documentation (Wiki, in progress), and issue tracking.
 
+## Distributions
+Two versions exist:
+
+The full version (masster) is distributed in this repository, and includes all functionalities, incl. reading from raw or mzML/mz5 data. As reading from vendor formats via .NET builds on pythonnet, the full version requires Python 3.11-3.13 on Windows to access proprietary data.
+
+An open-source, light version (masster-light) is distributed via PyPI, and allows to read, visualize, filter, export results that were processed by MASSter. The light version does NOT allow to process data, or read from raw files. It's available for any Python 3.11+. This is the recommended version for users that are only interested in the results, or developers that want to directly read sample5 and study5 files.
+
 ## Content
 
 MASSter is designed to handle LC-MS/MS data, regardless of whether it is DDA, DIA/SWATH, or DIA/ZTScan. We still rely on the potent and fast feature detection provided by OpenMS, but we have redesigned everything else: centroiding, RT alignment, adduct and isotopomer detection, merging of multiple samples, gap-filling, quantification, extraction of the best MS2 spectra across the entire study, visualization, and export to mzTab-M, MGF, parquet, etc.
@@ -116,8 +123,11 @@ See: [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample).
 The full `masster` package is licensed under the PolyForm Noncommercial License 1.0.0. See the [LICENSE](LICENSE) file for details.
 Noncommercial use is permitted under that license. Commercial use requires a separate commercial license from the Zamboni Lab at ETH Zurich.
 
+The `masster-light` version is open-source and licensed through AGPLv3.
+
 ### Third-Party Licenses
 This project uses several third-party libraries, including pyOpenMS which is licensed under the BSD 3-Clause License. For complete information about third-party dependencies and their licenses, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Citation
 If you use MASSter in your research, please cite this repository.
+
