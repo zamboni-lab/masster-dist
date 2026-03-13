@@ -100,14 +100,25 @@ uv run marimo edit '..\\..\\folder_to_store_results\\2_notebook.py'
 
 More extensive documentation lives in the GitHub wiki:
 - [Wiki home](../../wiki)
-- [Basic workflows](../../wiki/Basic-Workflows)
-- [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample)
+- [Getting Started](../../wiki/Getting-Started)
+- [Core Concepts](../../wiki/Concepts)
+- [Installation](../../wiki/Installation)
+- [Tutorial: Sample Analysis](../../wiki/Tutorial-Sample-Analysis)
+- [Tutorial: Study Analysis](../../wiki/Tutorial-Study-Analysis)
+- [Tutorial: Wizard Pipeline](../../wiki/Tutorial-Wizard)
+- [Tutorial: MS2 + MGF Export](../../wiki/Tutorial-MS2-and-MGF)
+- [Tutorial: Identification](../../wiki/Tutorial-Identification)
+- [Tutorial: Compare Two Samples](../../wiki/Tutorial-Compare-Two-Samples)
+- [Tutorial: Interpret Results](../../wiki/Tutorial-Interpret-Results)
+- [Tutorial: ZTScan](../../wiki/Tutorial-Processing-ZTScan-data)
+- [Tutorial: Tracing Studies](../../wiki/Tutorial-Tracing-Studies)
+- [Reference: study.xlsx structure](../../wiki/Reference-Study-XLSX)
 
 ### Basic Workflow for analyzing LC-MS study with 1-1000+ samples
-See: [Basic workflows](../../wiki/Basic-Workflows).
+See: [Tutorial: Study Analysis](../../wiki/Tutorial-Study-Analysis).
 
 ### Analysis of a single sample
-See: [Analysis of a single sample](../../wiki/Analysis-of-a-single-sample).
+See: [Tutorial: Sample Analysis](../../wiki/Tutorial-Sample-Analysis).
 
 ## Disclaimer
 
