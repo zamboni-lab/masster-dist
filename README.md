@@ -23,7 +23,7 @@ An open-source, light version (masster-light) is distributed via PyPI, and allow
 
 MASSter is designed to handle LC-MS/MS data, regardless of whether it is DDA, DIA/SWATH, or DIA/ZTScan. We still rely on the potent and fast feature detection provided by OpenMS, but we have redesigned everything else: centroiding, RT alignment, adduct and isotopomer detection, merging of multiple samples, gap-filling, quantification, extraction of the best MS2 spectra across the entire study, visualization, and export to mzTab-M, MGF, parquet, etc.
 
-We designed Masster to be primarily operated with scripts, not through a GUI. Interactive data exploration is possible by notebooks (Jupyter or Marimo). As of version 0.11.0, we added a dashboard to navigate, visualize, and explore results interactively in a browser. However, the dashboard is only meant to help AFTER data processing, and can't replace scripts.
+We designed Masster to be primarily operated with scripts, not through a GUI. Interactive data exploration is possible by notebooks (Jupyter or Marimo). As of version 0.11.0, we added a **dashboard** to navigate, visualize, and explore results interactively in a browser. The dashboard is meant to help AFTER data processing, and doesn't replace core processing.
 
 MASSter does **not** include:
 * downstream data analysis: Simple approaches like PCA, UMAP, or ANOVA are integrated for QC, but we didn't include methods for normalization or pathway analysis, etc.
