@@ -1,6 +1,4 @@
-# PolyForm Noncommercial License 1.0.0
-
-https://polyformproject.org/licenses/noncommercial/1.0.0
+# Masster Noncommercial and Commercial Services License 1.0.0
 
 ## Acceptance
 
@@ -12,16 +10,16 @@ both strict obligations and conditions to all your licenses.
 The licensor grants you a copyright license for the software to do
 everything you might do with the software that would otherwise infringe
 the licensor's copyright in it for any permitted purpose. However, you
-may only distribute the software according to Distribution License and
-make changes or new works based on the software according to Changes and
-New Works License.
+may only distribute the software according to [Distribution
+License](#distribution-license) and make changes or new works based on
+the software according to [Changes and New Works License](#changes-and-new-works-license).
 
 ## Distribution License
 
 The licensor grants you an additional copyright license to distribute
 copies of the software. Your license to distribute covers distributing
-the software with changes and new works permitted by Changes and New
-Works License.
+the software with changes and new works permitted by [Changes and New
+Works License](#changes-and-new-works-license).
 
 ## Notices
 
@@ -45,7 +43,8 @@ you would infringe by using the software.
 
 ## Noncommercial Purposes
 
-Any noncommercial purpose is a permitted purpose.
+Subject to the limitations and exclusions in these terms, any
+noncommercial purpose is a permitted purpose.
 
 ## Personal Uses
 
@@ -59,8 +58,35 @@ commercial application, is use for a permitted purpose.
 Use by any charitable organization, educational institution, public
 research organization, public safety or health organization,
 environmental protection organization, or government institution is use
-for a permitted purpose regardless of the source of funding or
-obligations resulting from the funding.
+for a permitted purpose only to the extent that the use is not:
+
+- for or on behalf of a for-profit entity;
+- funded, sponsored, or subsidized by a for-profit entity for that
+	entity's benefit;
+- provided as a paid service, contract research service, consulting
+	service, analytical service, or other fee-for-service offering to a
+	for-profit entity; or
+- intended primarily to produce results, deliverables, reports,
+	analyses, data, or other outputs for the commercial benefit of a
+	for-profit entity.
+
+Any such use is not a permitted purpose and requires a separate
+commercial license from the licensor.
+
+## Commercial Services
+
+Use of the software by any person or entity to provide paid, sponsored,
+contracted, or fee-for-service services to or for the benefit of a
+for-profit entity is not a permitted purpose, including where the user is
+otherwise a charitable organization, educational institution, public
+research organization, public safety or health organization,
+environmental protection organization, or government institution.
+
+For clarity, a use is for the benefit of a for-profit entity if the
+for-profit entity pays for, funds, sponsors, commissions, receives, or
+commercially exploits the service, its outputs, or work derived from it.
+
+To obtain a commercial license for such use, contact the licensor.
 
 ## Fair Use
 
@@ -113,6 +139,17 @@ contract, or otherwise. Control can be direct or indirect.
 
 Your licenses are all the licenses granted to you for the software under
 these terms.
+
+Commercial use means any use of the software:
+
+- by or for a for-profit entity;
+- in exchange for compensation, fees, sponsored funding, or other
+	consideration from a for-profit entity; or
+- to provide services, outputs, or deliverables for the business,
+	commercial, operational, or product-development benefit of a
+	for-profit entity.
+
+Commercial use is not a permitted purpose under these terms.
 
 Use means anything you do with the software requiring one of your
 licenses.
