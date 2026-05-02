@@ -120,8 +120,9 @@ More extensive documentation lives in the GitHub wiki:
 - **Source code access**: The source code in the public distribution is currently obfuscated. We remain committed to providing full access to the software's functionality and ensuring reproducibility of scientific results. We may explore alternative distribution models in the future that better balance openness with sustainability of the project. Access to source code may be granted for collaboration.
 
 ## License
-The full `masster` package is licensed under a modified PolyForm Noncommercial License 1.0.0. See the [LICENSE](LICENSE) file for details.
-Noncommercial use is permitted under that license. Commercial use requires a separate commercial license from the Zamboni Lab at ETH Zurich.
+The full `masster` package is licensed under the Masster Noncommercial License 1.0.0. See [LICENSE](LICENSE) for full terms.
+Noncommercial use is permitted under this license. Any commercial use requires a separate commercial license from the Zamboni Lab at ETH Zurich.
+Noncommercial use does not include services performed for the benefit of for-profit entities, including paid, sponsored, contracted, consulting, or other fee-for-service work by nonprofit or academic core facilities. See the `Noncommercial Organizations` and `Commercial Services` sections in [LICENSE](LICENSE).
 
 The `masster-light` version is open-source and licensed under AGPLv3.
 
