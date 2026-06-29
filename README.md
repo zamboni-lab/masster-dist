@@ -132,6 +132,6 @@ The `masster-light` version is open-source and licensed under AGPLv3.
 This project uses several third-party libraries, including pyOpenMS which is licensed under the BSD 3-Clause License. For complete information about third-party dependencies and their licenses, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Citation
-If you use MASSter in your research, please cite this repository.
+If you use MASSter in your research, please cite this repository and [DOI 10.5281/zenodo.21024853](https://doi.org/10.5281/zenodo.21024853).
 
 
