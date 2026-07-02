@@ -1,5 +1,3 @@
-[![DOI](https://zenodo.org/badge/1143630065.svg)](https://doi.org/10.5281/zenodo.21024853)
-
 <div align="center">
   <img src="masster.jpg" alt="MASSter Logo" width="200">
 </div>
