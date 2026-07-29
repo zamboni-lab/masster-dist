@@ -1,0 +1,54 @@
+{
+  "commit": "b6ced5ed4e2228c22a139495a5b832ba8f7efe1d",
+  "files": [
+    {
+      "path": "docs/agent/masster-agent-guide.md",
+      "sha256": "55ce2ad6f53ff8eaf52ae2f5ca64e5cafaea45e8cd461083c4066e51ccc270d5"
+    },
+    {
+      "path": "skills/masster/SKILL.md",
+      "sha256": "d109a42865818905ded9f57dd8c483645d67a7e7e94e2077759411025e6b6955"
+    },
+    {
+      "path": "skills/masster/agents/openai.yaml",
+      "sha256": "a343600c99cb788c5ad279b0cc005509a78a0aaa2aa9efeaf159c4a9d55a4ec2"
+    },
+    {
+      "path": "examples/agent/gate_operation.py",
+      "sha256": "3334eb393226c202b3d4a316733a6a70517fb85b611bbc98b701fa654f9cf75a"
+    },
+    {
+      "path": "examples/agent/inspect_sample.py",
+      "sha256": "b9e16e604247d648246d3bd4d246d7c6e535302dd2a6cdb8a4090c41f558c11c"
+    }
+  ],
+  "masster_version": "0.14.0",
+  "release_tag": "v0.14.0",
+  "schema_version": "1.0",
+  "tool_contract": {
+    "namespace": "masster.agent",
+    "operations": {
+      "Sample": [
+        "find_features",
+        "find_iso",
+        "find_adducts",
+        "find_ms2",
+        "identify"
+      ],
+      "Study": [
+        "align",
+        "merge",
+        "fill",
+        "integrate",
+        "find_ms2",
+        "identify"
+      ]
+    },
+    "tools": [
+      "inspect",
+      "check",
+      "execute",
+      "tool_catalog"
+    ]
+  }
+}

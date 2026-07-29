@@ -133,3 +133,14 @@ This project uses several third-party libraries, including pyOpenMS which is lic
 If you use MASSter in your research, please cite this repository and [DOI 10.5281/zenodo.21024853](https://doi.org/10.5281/zenodo.21024853).
 
 
+
+## AI agents
+
+Versioned, portable agent instructions are published with every release:
+
+- `docs/agent/masster-agent-guide.md`: workflow and API guide.
+- `skills/masster/`: portable MASSter skill for Codex-compatible agents.
+- `agent-manifest.json`: version and checksum manifest for the current bundle.
+
+Download the matching `masster-agent-bundle-*.zip` from a release for
+reproducible or offline use.

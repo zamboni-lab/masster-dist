@@ -1,0 +1,4 @@
+interface:
+  display_name: "MASSter"
+  short_description: "Guide agents using MASSter safely"
+  default_prompt: "Use the MASSter guide to inspect, validate, and operate this repository's public API."
