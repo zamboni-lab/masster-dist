@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use MASSter, please cite it using the metadata in this file."
-title: masster v0.14.0
-version: 0.14.0
+title: masster v0.14.2
+version: 0.14.2
 authors:
   - name: Zamboni Lab, ETH Zurich
 repository-code: https://github.com/zamboni-lab/masster-dist
