@@ -1,5 +1,5 @@
 {
-  "commit": "27a9a1f605c77866d0f64a43afb48617ffad44b5",
+  "commit": "e9b502253c48496d1c8fc7580813bc3cd4783cc6",
   "files": [
     {
       "path": "docs/agent/masster-agent-guide.md",
@@ -22,8 +22,8 @@
       "sha256": "b9e16e604247d648246d3bd4d246d7c6e535302dd2a6cdb8a4090c41f558c11c"
     }
   ],
-  "masster_version": "0.14.4",
-  "release_tag": "v0.14.4",
+  "masster_version": "0.14.5",
+  "release_tag": "v0.14.5",
   "schema_version": "1.0",
   "tool_contract": {
     "namespace": "masster.agent",
