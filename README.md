@@ -144,3 +144,14 @@ Versioned, portable agent instructions are published with every release:
 
 Download the matching `masster-agent-bundle-*.zip` from a release for
 reproducible or offline use.
+
+## AI agents
+
+Versioned, portable agent instructions are published with every release:
+
+- `docs/agent/masster-agent-guide.md`: workflow and API guide.
+- `skills/masster/`: portable MASSter skill for Codex-compatible agents.
+- `agent-manifest.json`: version and checksum manifest for the current bundle.
+
+Download the matching `masster-agent-bundle-*.zip` from a release for
+reproducible or offline use.
