@@ -58,7 +58,7 @@ This repository publishes a PEP 503-compatible package index (for `uv`, `pip`, e
 
 `uv` (recommended):
 ```bash
-uv pip install --index https://zamboni-lab.github.io/masster-dist/simple masster
+uv add --index https://zamboni-lab.github.io/masster-dist/simple masster
 ```
 
 `pip`:
