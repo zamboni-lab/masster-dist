@@ -15,7 +15,7 @@ This repository provides public releases, documentation (Wiki, in progress), and
 ## Distributions
 Two versions exist:
 
-The full version (masster) is distributed in this repository, and includes all functionalities, incl. reading from raw or mzML/mz5 data. As reading from vendor formats via .NET builds on pythonnet, the full version requires Python 3.11-3.13 on Windows to access proprietary data.
+The full version (masster) is distributed in this repository, and includes all functionalities, incl. reading from raw or mzML/mz5 data. As reading from vendor formats via .NET builds on pythonnet, the full version requires Python 3.12-3.14 on Windows to access proprietary data.
 
 An open-source, light version (masster-light) is distributed via PyPI, and allows to read, visualize, filter, export results that were processed by MASSter. The light version does NOT allow to process data, or read from raw files. It's available for any Python 3.11+. This is the recommended version for users that are only interested in the results, or developers that want to directly read sample5 and study5 files.
 
