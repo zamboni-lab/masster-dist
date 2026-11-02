@@ -1,13 +1,13 @@
 {
-  "commit": "fe9056db622e50aeac6f3227532cf67e3e289c4d",
+  "commit": "02de68d316ab315445647a6be6247db442ae1074",
   "files": [
     {
       "path": "docs/agent/masster-agent-guide.md",
-      "sha256": "55ce2ad6f53ff8eaf52ae2f5ca64e5cafaea45e8cd461083c4066e51ccc270d5"
+      "sha256": "b7e07eba87483fde4aafa455fdcd799df5745b6fdf9632ecd29c542fb21f4de4"
     },
     {
       "path": "skills/masster/SKILL.md",
-      "sha256": "d109a42865818905ded9f57dd8c483645d67a7e7e94e2077759411025e6b6955"
+      "sha256": "8e58d9a20b1f3680d79e8fbcf8356bd9054fa4b21e262c124ae353a542a4bf10"
     },
     {
       "path": "skills/masster/agents/openai.yaml",
@@ -22,8 +22,8 @@
       "sha256": "b9e16e604247d648246d3bd4d246d7c6e535302dd2a6cdb8a4090c41f558c11c"
     }
   ],
-  "masster_version": "0.16.2",
-  "release_tag": "v0.16.2",
+  "masster_version": "0.16.8",
+  "release_tag": "v0.16.8",
   "schema_version": "1.0",
   "tool_contract": {
     "namespace": "masster.agent",
